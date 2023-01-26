@@ -68,7 +68,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#about'
-                    className='text-dark-red text-[32px] hover:text-nav-yellow'
+                    className='text-nav-black text-[32px] hover:text-dark-red'
                   >
                     About Me
                   </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#gallery'
-                    className='text-dark-red text-[32px] hover:text-nav-yellow'
+                    className='text-nav-black text-[32px] hover:text-dark-red'
                   >
                     Gallery
                   </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#webs'
-                    className='text-dark-red text-[32px] hover:text-nav-yellow'
+                    className='text-nav-black text-[32px] hover:text-dark-red'
                   >
                     Webs
                   </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#contact'
-                    className='text-dark-red text-[32px] hover:text-nav-yellow'
+                    className='text-nav-black text-[32px] hover:text-dark-red'
                   >
                     Contact
                   </Link>

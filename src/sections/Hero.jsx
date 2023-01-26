@@ -18,14 +18,16 @@ const Hero = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className='flex-[0.95] flex justify-center flex-col'
+        className='flex-[0.95] flex justify-center items-center flex-col'
       >
-        <TitleText title={<>Welcome to</>} />
+        <h2 className='text-[46px]'>Welcome to</h2>
         <TypingText title='IoanaM Illustrations' />
+        <h2 className='text-[40px]'>Passion for photography</h2>
+        <h2 className='text-[40px]'>and digital design</h2>
         <div className='mt-[48px] flex flex-wrap justify-between gap-[24px]'>
-          {heroFeatures.map((feature) => (
+          {/* {heroFeatures.map((feature) => (
             <HeroFeatures key={feature.title} {...feature} />
-          ))}
+          ))} */}
         </div>
       </motion.div>
 
@@ -36,7 +38,7 @@ const Hero = () => (
         <img
           src='/ioana-hero.jpg'
           alt='get-started'
-          className='w-[90%] h-[90%] object-contain'
+          className='w-[90%] h-[90%] object-contain hover:scale-[103%]'
         />
       </motion.div>
     </motion.div>
