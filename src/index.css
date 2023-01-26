@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  text-align: unset;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Dancing Script', sans-serif;
+}
