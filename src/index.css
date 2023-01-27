@@ -22,6 +22,19 @@ a:hover {
   cursor: pointer;
 }
 
+sup {
+  color: red;
+}
+
+.form-control {
+  padding: 0 15px;
+}
+
+input#flexCheckDefault {
+  width: 30px;
+  height: 30px;
+}
+
 .gradient-about {
   background: rgb(136, 199, 203);
   background: linear-gradient(

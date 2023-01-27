@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const Gallery = () => {
   return (
     <div className='bg-skin-color'>
-      <div className='bg-gallery2 steep-gallery'>
+      <div className='bg-gallery2 steep-gallery md:pb-[50px]'>
         <h1
           id='gallery'
           className='text-[60px] lg:pt-[200px] pb-[100px] pt-[100px] text-center'

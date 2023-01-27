@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Hero, About, Gallery } from '../sections'
+import { Hero, About, Gallery, Contact } from '../sections'
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Hero />
       <About />
       <Gallery />
+      <Contact />
     </>
   )
 }
