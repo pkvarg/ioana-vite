@@ -8,7 +8,7 @@ import { HeroFeatures, TitleText, TypingText } from '../components'
 import { planetVariants, staggerContainer, fadeIn } from '../motion'
 
 const Hero = () => (
-  <section className={`${styles.paddings} relative z-10 bg-hero`}>
+  <section className={`${styles.paddings} relative z-10 bg-hero-grey`}>
     <motion.div
       variants={staggerContainer}
       initial='hidden'

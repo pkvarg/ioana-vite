@@ -107,7 +107,7 @@ const Navbar = () => {
                     to='contact'
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={0}
                     duration={500}
                     className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >

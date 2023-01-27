@@ -10,7 +10,7 @@
   max-width: 100%;
   text-align: unset;
   overflow-x: hidden;
-  /* background-color: #e8e8e8; */
+
   --section-rotate: 9vw;
 }
 
@@ -60,6 +60,26 @@ input#flexCheckDefault {
     0 var(--section-rotate),
     100% 0,
     100% calc(100% - var(--section-rotate)),
+    0 100%
+  );
+}
+
+.steep-footer {
+  margin-top: calc(150px - var(--section-rotate));
+  margin-bottom: calc(20px - var(--section-rotate));
+  position: relative;
+  height: 400px;
+
+  clip-path: polygon(
+    0 var(--section-rotate),
+    100% 0,
+    100% calc(300% - var(--section-rotate)),
+    0 100%
+  );
+  -webkit-clip-path: polygon(
+    0 var(--section-rotate),
+    100% 0,
+    100% calc(300% - var(--section-rotate)),
     0 100%
   );
 }

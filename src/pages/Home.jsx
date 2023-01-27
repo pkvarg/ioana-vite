@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Footer } from '../components'
 import { Hero, About, Gallery, Contact } from '../sections'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <About />
       <Gallery />
       <Contact />
+      <Footer />
     </>
   )
 }
