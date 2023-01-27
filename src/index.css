@@ -18,6 +18,10 @@
   font-family: 'Dancing Script', sans-serif;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .gradient-about {
   background: rgb(136, 199, 203);
   background: linear-gradient(

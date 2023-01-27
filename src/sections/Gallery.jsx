@@ -5,7 +5,12 @@ const Gallery = () => {
   return (
     <div className='bg-skin-color'>
       <div className='bg-gallery2 steep-gallery'>
-        <h1 className='text-[60px] py-[200px] text-center'>Gallery</h1>
+        <h1
+          id='gallery'
+          className='text-[60px] lg:pt-[200px] pb-[100px] pt-[100px] text-center'
+        >
+          Gallery
+        </h1>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

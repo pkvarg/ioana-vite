@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { navVariants } from './../motion'
 import styles from '../styles'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
@@ -13,13 +14,13 @@ const Navbar = () => {
         <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
           <div>
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
-              <Link to='/'>
+              <a href='/'>
                 <img
                   src='/ioana_logo.png'
                   alt='search'
                   className='w-[180px] h-[auto] object-contain'
                 />
-              </Link>
+              </a>
               <div className='md:hidden'>
                 <button
                   className='p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border'
@@ -67,7 +68,11 @@ const Navbar = () => {
               <ul className='items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0'>
                 <li>
                   <Link
-                    to='#about'
+                    to='about'
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
                     className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     About Me
@@ -75,23 +80,35 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to='#gallery'
+                    to='gallery'
+                    spy={true}
+                    smooth={true}
+                    offset={125}
+                    duration={500}
                     className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     Gallery
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to='#webs'
+                  {/* <Link
+                    to='webs'
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
                     className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     Webs
-                  </Link>
+                  </Link> */}
                 </li>
                 <li>
                   <Link
-                    to='#contact'
+                    to='contact'
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
                     className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     Contact

@@ -4,7 +4,9 @@ const About = () => {
   return (
     <>
       <div className='bg-skin-color'>
-        <h1 className='text-[60px] py-[100px] text-center'>About Me</h1>
+        <h1 id='about' className='text-[60px] py-[100px] text-center'>
+          About Me
+        </h1>
         <div className='my-30 flex flex-col lg:flex-row items-center justify-center pb-[100px]'>
           <div className='flex flex-col text-[46px] gradient-about px-12 lg:py-2 py-8 rounded-xl'>
             <p className='text-center'>Hi, my name is Ioana Mîndrilă </p>
