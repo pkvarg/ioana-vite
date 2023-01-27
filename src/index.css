@@ -84,9 +84,14 @@ input#flexCheckDefault {
   );
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1550px) {
   .steep-gallery {
     margin-top: 0;
     height: max-content;
+  }
+
+  .steep-footer {
+    margin-top: 0;
+    height: 400px;
   }
 }
