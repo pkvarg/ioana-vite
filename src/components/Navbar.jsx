@@ -17,7 +17,7 @@ const Navbar = () => {
                 <img
                   src='/ioana_logo.png'
                   alt='search'
-                  className='w-[140px] h-[auto] object-contain'
+                  className='w-[180px] h-[auto] object-contain'
                 />
               </Link>
               <div className='md:hidden'>
@@ -28,7 +28,7 @@ const Navbar = () => {
                   {navbar ? (
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='w-6 h-6'
+                      className='w-10 h-10'
                       viewBox='0 0 20 20'
                       fill='currentColor'
                     >
@@ -41,7 +41,7 @@ const Navbar = () => {
                   ) : (
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='w-6 h-6'
+                      className='w-10 h-10'
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#about'
-                    className='text-nav-black text-[32px] hover:text-dark-red'
+                    className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     About Me
                   </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#gallery'
-                    className='text-nav-black text-[32px] hover:text-dark-red'
+                    className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     Gallery
                   </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#webs'
-                    className='text-nav-black text-[32px] hover:text-dark-red'
+                    className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     Webs
                   </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to='#contact'
-                    className='text-nav-black text-[32px] hover:text-dark-red'
+                    className='text-nav-black text-[42.5px] hover:text-dark-red'
                   >
                     Contact
                   </Link>

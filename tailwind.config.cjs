@@ -8,6 +8,7 @@ module.exports = {
       'nav-yellow': '#fecd08',
       'nav-blue': '#5b909d',
       'nav-black': '#010101',
+
       'secondary-white': '#c7c7c7',
     },
   },

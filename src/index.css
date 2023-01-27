@@ -16,3 +16,12 @@
 * {
   font-family: 'Dancing Script', sans-serif;
 }
+
+.gradient-about {
+  background: rgb(136, 199, 203);
+  background: linear-gradient(
+    96deg,
+    rgba(136, 199, 203, 1) 2%,
+    rgba(193, 233, 238, 1) 70%
+  );
+}
