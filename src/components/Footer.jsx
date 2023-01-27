@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='bg-skin-color'>
       <div className='bg-hero-grey steep-footer md:pb-[50px] relative'>
-        <h1 className='text-[35px] text-dark-red lg:ml-[40%] ml-[5px] absolute lg:top-[45%] top-[40%]'>
+        <h1 className='text-[35px] text-dark-red lg:ml-[40%] ml-[5px] absolute lg:top-[45%] top-[30%]'>
           Copyright &copy; {Date().substring(11, 15)} ioana-illustrations.eu
         </h1>
         <a

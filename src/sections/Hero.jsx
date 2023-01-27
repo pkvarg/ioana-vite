@@ -14,7 +14,7 @@ const Hero = () => (
       initial='hidden'
       whileInView='show'
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 py-[100px]`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 lg:py-[100px] py-[50px]`}
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}

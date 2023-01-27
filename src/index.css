@@ -48,7 +48,7 @@ input#flexCheckDefault {
   margin-top: calc(150px - var(--section-rotate));
   position: relative;
   z-index: 1000;
-  height: 3100px;
+  height: fit-content;
 
   clip-path: polygon(
     0 var(--section-rotate),

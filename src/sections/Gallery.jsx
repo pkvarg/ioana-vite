@@ -63,7 +63,7 @@ const Gallery = () => {
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/public/gallery/cool_web.jpg'
+            src='/gallery/cool_web.jpg'
             alt='Photo of a beautiful girl'
           />
         </motion.div>
@@ -156,7 +156,7 @@ const Gallery = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: false, amount: 0.25 }}
           transition={{ duration: 3 }}
-          className='grid lg:grid-cols-4 mt-8 justify-items-center lg:gap-0 gap-[30px]'
+          className='grid lg:grid-cols-4 mt-8 justify-items-center lg:gap-0 gap-[30px] pb-[100px]'
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
