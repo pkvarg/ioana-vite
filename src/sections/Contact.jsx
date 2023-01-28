@@ -32,8 +32,8 @@ const Contact = () => {
     } else {
       emailjs
         .sendForm(
-          'service_45sakxl',
-          'template_q82l8w9',
+          import.meta.env.VITE_EMAILJS_SERVICE,
+          import.meta.env.VITE_EMAILJS_TEMPLATE,
           form.current,
           'user_mnqXPxOn2rVCZkKeC92I9'
         )
