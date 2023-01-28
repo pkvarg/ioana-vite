@@ -9,8 +9,6 @@
   padding: 0;
   max-width: 100%;
   text-align: unset;
-  overflow-x: hidden;
-
   --section-rotate: 9vw;
 }
 
@@ -85,6 +83,10 @@ input#flexCheckDefault {
 }
 
 @media only screen and (max-width: 1550px) {
+  #root {
+    overflow-x: hidden;
+  }
+
   .steep-gallery {
     margin-top: 0;
     height: max-content;

@@ -35,7 +35,7 @@ const Contact = () => {
           import.meta.env.VITE_EMAILJS_SERVICE,
           import.meta.env.VITE_EMAILJS_TEMPLATE,
           form.current,
-          'user_mnqXPxOn2rVCZkKeC92I9'
+          import.meta.env.VITE_EMAILJS_USER
         )
         .then(
           (result) => {
