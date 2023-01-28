@@ -15,8 +15,8 @@ const Contact = () => {
   }
 
   const form = useRef()
-  const x = '9%US7xkjNay2pnYrk9d8Z%En+b4%9'
-  const y = 'ZnFrwKRL7%Fu$7u2Mt77b^$PPw@Yv'
+  const x = import.meta.env.VITE_EMAIL_EXTRA_ONE
+  const y = import.meta.env.VITE_EMAIL_EXTRA_TWO
   const [passwordGroupOne, setPasswordGroupOne] = useState(x)
   const [passwordGroupTwo, setPasswordGroupTwo] = useState(y)
   const sendEmail = (e) => {
