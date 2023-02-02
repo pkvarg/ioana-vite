@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { navVariants } from './../motion'
 import styles from '../styles'
-// import { Link } from 'react-router-dom'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -119,13 +118,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* <div className='flex flex-col my-8 py-2 px-2 text-center'>
-        <h1 className='text-dark-red text-[60px]'>IoanaM ILLUSTRATIONS</h1>
-        <h2 className='text-dark-red text-[30px]'>
-          Portraits, logos, invitation cards, business cards, flyers,visual
-          identities
-        </h2>
-      </div> */}
     </motion.nav>
   )
 }

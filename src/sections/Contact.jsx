@@ -40,9 +40,11 @@ const Contact = () => {
         .then(
           (result) => {
             console.log(result.text)
+            setMessageSuccess('Message successfully sent!')
             console.log('message sent')
           },
           (error) => {
+            setMessage('Error! Try again later, please.')
             console.log(error.text)
           }
         )
@@ -51,7 +53,6 @@ const Contact = () => {
       setMailMessage('')
       const element = document.getElementById('contact')
       element.scrollIntoView({ behavior: 'smooth' })
-      setMessageSuccess('Message successfully sent!')
     }
   }
 
