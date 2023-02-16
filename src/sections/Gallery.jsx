@@ -20,22 +20,22 @@ const Gallery = () => {
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/winter_web.jpg'
+            src='/gallery/winter_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='../gallery/ethereal_web.jpg'
+            src='../gallery/ethereal_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='../gallery/halftone_web.jpg'
+            src='../gallery/halftone_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='../gallery/geometrical_web.jpg'
+            src='../gallery/geometrical_web.webp'
             alt='Photo of a beautiful girl'
           />
         </motion.div>
@@ -48,22 +48,22 @@ const Gallery = () => {
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/b-a_web.jpg'
+            src='/gallery/b-a_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/autumn_web.jpg'
+            src='/gallery/autumn_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/birthday_web.jpg'
+            src='/gallery/birthday_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/cool_web.jpg'
+            src='/gallery/cool_web.webp'
             alt='Photo of a beautiful girl'
           />
         </motion.div>
@@ -76,22 +76,22 @@ const Gallery = () => {
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/disco_web.jpg'
+            src='/gallery/disco_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/hippie_web.jpg'
+            src='/gallery/hippie_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='gallery/pink_web.jpg'
+            src='gallery/pink_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='gallery/oriental_web.jpg'
+            src='gallery/oriental_web.webp'
             alt='Photo of a beautiful girl'
           />
         </motion.div>
@@ -104,22 +104,22 @@ const Gallery = () => {
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/red_web.jpg'
+            src='/gallery/red_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/selfie_web.jpg'
+            src='/gallery/selfie_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/selfportrait_web.jpg'
+            src='/gallery/selfportrait_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/traditional1_web.jpg'
+            src='/gallery/traditional1_web.webp'
             alt='Photo of a beautiful girl'
           />
         </motion.div>
@@ -132,22 +132,22 @@ const Gallery = () => {
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/traditional2_web.jpg'
+            src='/gallery/traditional2_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/traditional3_web.jpg'
+            src='/gallery/traditional3_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/traditional4_web.jpg'
+            src='/gallery/traditional4_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/traditional5_web.jpg'
+            src='/gallery/traditional5_web.webp'
             alt='Photo of a beautiful girl'
           />
         </motion.div>
@@ -160,22 +160,22 @@ const Gallery = () => {
         >
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/traditional6_web.jpg'
+            src='/gallery/traditional6_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:ml-[25%]'
-            src='/gallery/90s_web.jpg'
+            src='/gallery/90s_web.webp'
             alt='Photo of a boy'
           />
           {/* <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/traditional4_web.jpg'
+            src='/gallery/traditional4_web.webp'
             alt='Photo of a beautiful girl'
           />
           <img
             className='w-[85%] rounded-[25px] hover:scale-[133%] hover:mr-[25%]'
-            src='/gallery/traditional5_web.jpg'
+            src='/gallery/traditional5_web.webp'
             alt='Photo of a beautiful girl'
           /> */}
         </motion.div>

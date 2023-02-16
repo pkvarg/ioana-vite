@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
               <a href='/'>
                 <img
-                  src='/ioana_logo.png'
+                  src='/ioana_logo.webp'
                   alt='search'
                   className='w-[180px] h-[auto] object-contain'
                 />

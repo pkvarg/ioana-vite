@@ -3,8 +3,7 @@
 import { motion } from 'framer-motion'
 
 import styles from '../styles'
-import { heroFeatures } from '../constants'
-import { HeroFeatures, TitleText, TypingText } from '../components'
+import { TypingText } from '../components'
 import { planetVariants, staggerContainer, fadeIn } from '../motion'
 
 const Hero = () => (
@@ -60,7 +59,7 @@ const Hero = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src='/ioana-hero.jpg'
+          src='/ioana-hero.webp'
           alt='get-started'
           className='w-[90%] h-[90%] object-contain hover:scale-[103%]'
         />

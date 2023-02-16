@@ -64,7 +64,7 @@ const Contact = () => {
       <div className='flex lg:flex-row flex-col lg:justify-center items-center  gap-[10%] py-[100px]'>
         <img
           className='lg:w-[40%] w-[85%] h-auto rounded-xl hover:scale-[103%]'
-          src='/ioana-contact.jpg'
+          src='/ioana-contact.webp'
           alt='photo of a beautiful girl'
         />
         <div className='lg:w-[33%] w-[85%] lg:pt-0 pt-[150px]'>
