@@ -1,2 +1,4 @@
 import Home from './Home'
-export { Home }
+import ErrorPage from './ErrorPage'
+import Counter from './Counter'
+export { Home, ErrorPage, Counter }

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import Message from '../components/Message'
+import axios from 'axios'
 
 const Contact = () => {
   const [message, setMessage] = useState(null)
@@ -19,6 +20,24 @@ const Contact = () => {
   const y = import.meta.env.VITE_EMAIL_EXTRA_TWO
   const [passwordGroupOne, setPasswordGroupOne] = useState(x)
   const [passwordGroupTwo, setPasswordGroupTwo] = useState(y)
+
+  const config = {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }
+
+  const increaseBots = async () => {
+    const { data } = await axios.put(
+      `https://pictusweb.online/api/bots/io/increase`,
+      // `http://localhost:2000/api/bots/io/increase`,
+
+      config
+    )
+    // setBotsCount(data)
+    // console.log('ctc:', data)
+  }
+
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -27,6 +46,7 @@ const Contact = () => {
       setName('')
       setEmail('')
       setMailMessage('')
+      increaseBots()
       const element = document.getElementById('contact')
       element.scrollIntoView({ behavior: 'smooth' })
     } else {

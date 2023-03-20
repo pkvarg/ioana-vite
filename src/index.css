@@ -10,6 +10,7 @@
   max-width: 100%;
   text-align: unset;
   --section-rotate: 9vw;
+  overflow: hidden;
 }
 
 * {
