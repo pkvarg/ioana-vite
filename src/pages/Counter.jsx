@@ -13,7 +13,7 @@ const Counter = () => {
   }
   const getBots = async () => {
     const { data } = await axios.get(
-      `https://pictusweb.online/api/bots/io/counter`,
+      `https://api.pictusweb.com/api/bots/io/counter`,
       // `http://localhost:2000/api/bots/io/counter`,
 
       config
@@ -23,7 +23,7 @@ const Counter = () => {
 
   const getVisitors = async () => {
     const { data } = await axios.get(
-      `https://pictusweb.online/api/visitors/io/counter`,
+      `https://api.pictusweb.com/api/visitors/io/counter`,
 
       // `http://localhost:2000/api/visitors/io/counter`,
 

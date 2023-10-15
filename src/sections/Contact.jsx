@@ -29,7 +29,7 @@ const Contact = () => {
 
   const increaseBots = async () => {
     const { data } = await axios.put(
-      `https://pictusweb.online/api/bots/io/increase`,
+      `https://api.pictusweb.com/api/bots/io/increase`,
       // `http://localhost:2000/api/bots/io/increase`,
 
       config
