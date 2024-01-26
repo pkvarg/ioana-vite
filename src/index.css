@@ -65,7 +65,7 @@ input#flexCheckDefault {
 
 .steep-footer {
   margin-top: calc(150px - var(--section-rotate));
-  margin-bottom: calc(20px - var(--section-rotate));
+  padding-bottom: calc(20% - var(--section-rotate));
   position: relative;
   height: 400px;
 

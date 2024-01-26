@@ -4,11 +4,11 @@ const About = () => {
   return (
     <>
       <div className='bg-skin-color'>
-        <h1 id='about' className='text-[60px] py-[100px] text-center'>
+        <h1 id='about' className='text-[40px] py-[100px] text-center'>
           About Me
         </h1>
         <div className='my-30 flex flex-col lg:flex-row items-center justify-center pb-[100px]'>
-          <div className='flex flex-col text-[46px] gradient-about px-12 lg:py-10 py-8 rounded-xl lg:ml-0 ml-6 lg:mr-0 mr-6'>
+          <div className='flex flex-col text-[35px] gradient-about px-12 lg:py-10 py-8 rounded-xl lg:ml-0 ml-6 lg:mr-0 mr-6'>
             <p className='text-center'>Hi, my name is Ioana Mîndrilă </p>
             <p className='text-center'>
               {' '}
@@ -27,7 +27,7 @@ const About = () => {
             <p className='text-center'>Hope you enjoy my work :D</p>
           </div>
 
-          <div className='lg:ml-[12%] lg:pt-[30px] lg:mt-[0px] mt-[100px] flex flex-col gap-[15px] text-[46px]'>
+          <div className='lg:ml-[12%] lg:pt-[30px] lg:mt-[0px] mt-[100px] flex flex-col gap-[15px] text-[30px]'>
             <div className='flex flex-row items-center gap-[15px]'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'

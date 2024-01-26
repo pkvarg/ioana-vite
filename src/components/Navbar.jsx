@@ -17,7 +17,7 @@ const Navbar = () => {
                 <img
                   src='/ioana_logo.webp'
                   alt='search'
-                  className='w-[180px] h-[auto] object-contain'
+                  className='w-[125px] h-[auto] object-contain'
                 />
               </a>
               <div className='md:hidden'>
@@ -64,7 +64,7 @@ const Navbar = () => {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className='items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0'>
+              <ul className='items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-[30px]'>
                 <li>
                   <Link
                     to='about'
@@ -72,7 +72,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={50}
                     duration={500}
-                    className='text-nav-black text-[42.5px] hover:text-dark-red'
+                    className='text-nav-black  hover:text-dark-red'
                   >
                     About Me
                   </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={125}
                     duration={500}
-                    className='text-nav-black text-[42.5px] hover:text-dark-red'
+                    className='text-nav-black  hover:text-dark-red'
                   >
                     Gallery
                   </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={0}
                     duration={500}
-                    className='text-nav-black text-[42.5px] hover:text-dark-red'
+                    className='text-nav-black  hover:text-dark-red'
                   >
                     Contact
                   </Link>

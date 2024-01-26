@@ -34,10 +34,10 @@ const Hero = () => (
           />
         </svg>
 
-        <h2 className='text-[46px]'>Welcome to</h2>
+        <h2 className='text-[36px]'>Welcome to</h2>
         <TypingText title='IoanaM Illustrations' />
-        <h2 className='text-[40px]'>Passion for photography</h2>
-        <h2 className='text-[40px]'>and digital design</h2>
+        <h2 className='text-[35px]'>Passion for photography</h2>
+        <h2 className='text-[35px]'>and digital design</h2>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'
@@ -61,7 +61,7 @@ const Hero = () => (
         <img
           src='/ioana-hero.webp'
           alt='get-started'
-          className='w-[90%] h-[90%] object-contain hover:scale-[103%]'
+          className='w-[70%] 2xl:w-[65%] h-[90%] object-contain hover:scale-[103%]'
         />
       </motion.div>
     </motion.div>

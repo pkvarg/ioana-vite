@@ -78,12 +78,12 @@ const Contact = () => {
 
   return (
     <div className='bg-skin-color'>
-      <h1 id='contact' className='text-[60px] text-center lg:pt-0 pt-[55px]'>
+      <h1 id='contact' className='text-[40px] text-center lg:pt-0 pt-[55px]'>
         Contact Me
       </h1>
       <div className='flex lg:flex-row flex-col lg:justify-center items-center  gap-[10%] py-[100px]'>
         <img
-          className='lg:w-[40%] w-[85%] h-auto rounded-xl hover:scale-[103%]'
+          className='lg:w-[30%] 2xl:w-[20%] w-[85%] h-auto rounded-xl hover:scale-[103%]'
           src='/ioana-contact.webp'
           alt='photo of a beautiful girl'
         />
