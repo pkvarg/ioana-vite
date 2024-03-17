@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  text-align: unset;
+  --section-rotate: 9vw;
+  overflow: hidden;
+}
+
+* {
+  font-family: 'Dancing Script', sans-serif;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+sup {
+  color: red;
+}
+
+.form-control {
+  padding: 0 15px;
+}
+
+input#flexCheckDefault {
+  width: 30px;
+  height: 30px;
+}
+
+.gradient-about {
+  background: rgb(136, 199, 203);
+  background: linear-gradient(
+    96deg,
+    rgba(136, 199, 203, 1) 2%,
+    rgba(193, 233, 238, 1) 70%
+  );
+}
+
+.steep-gallery {
+  margin-top: calc(150px - var(--section-rotate));
+  position: relative;
+  z-index: 1000;
+  height: fit-content;
+
+  clip-path: polygon(
+    0 var(--section-rotate),
+    100% 0,
+    100% calc(100% - var(--section-rotate)),
+    0 100%
+  );
+  -webkit-clip-path: polygon(
+    0 var(--section-rotate),
+    100% 0,
+    100% calc(100% - var(--section-rotate)),
+    0 100%
+  );
+}
+
+.steep-footer {
+  margin-top: calc(150px - var(--section-rotate));
+  padding-bottom: calc(20% - var(--section-rotate));
+  position: relative;
+  height: 400px;
+
+  clip-path: polygon(
+    0 var(--section-rotate),
+    100% 0,
+    100% calc(300% - var(--section-rotate)),
+    0 100%
+  );
+  -webkit-clip-path: polygon(
+    0 var(--section-rotate),
+    100% 0,
+    100% calc(300% - var(--section-rotate)),
+    0 100%
+  );
+}
+
+@media only screen and (max-width: 1550px) {
+  #root {
+    overflow-x: hidden;
+  }
+
+  .steep-gallery {
+    margin-top: 0;
+    height: max-content;
+  }
+
+  .steep-footer {
+    margin-top: 0;
+    height: 400px;
+  }
+}

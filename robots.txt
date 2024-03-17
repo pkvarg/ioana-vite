@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ioana-illustrations.eu/sitemap.xml
